@@ -1,13 +1,17 @@
 :root {
+  --primary-color: #8f0101;
+  --secondary-color: #b81515;
+
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
 
-  --button-primary-color: #8f0101;
-  --button-secondary-color: #b81515;
-
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
@@ -27,6 +31,6 @@ button {
   box-sizing: border-box;
 }
 
-h1 {
-  color: var(--button-primary-color);
+body {
+  font-family: "Montserrat";
 }
