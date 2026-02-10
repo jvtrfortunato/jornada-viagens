@@ -45,6 +45,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .categories-cards {
+        flex-wrap: nowrap;
+    }
+
     .categories-cards .card {
         width: 280px;
     }
