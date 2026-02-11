@@ -1,3 +1,11 @@
+.payments .content-container .text-content .content-title.bigger {
+    font-size: 36px;
+}
+
+.payments .content-container .text-content .content-text.text-before-buttom {
+    margin-bottom: 24px;
+}
+
 .payments .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,6 +34,26 @@
     grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.payments .content-container .travel-packages.image-gallery .image.first {
+    background: url(../img/travel-packages/travel-packages-gallery1-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .travel-packages.image-gallery .image.second {
+    background: url(../img/travel-packages/travel-packages-gallery2-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .travel-packages.image-gallery .image.thirdy {
+    background: url(../img/travel-packages/travel-packages-gallery3-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
 @media screen and (min-width:768px) {
     .payments .content-container .image-gallery .image.first {
         background: url(../img/gallery1-tablet.png) no-repeat;
@@ -39,6 +67,40 @@
 
     .payments .content-container .image-gallery .image.thirdy {
         background: url(../img/gallery3-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* PACOTES DE VIAGENS */
+    .payments .content-container .travel-packages.image-gallery .image.first {
+        background: url(../img/travel-packages/travel-packages-gallery1-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .travel-packages.image-gallery .image.second {
+        background: url(../img/travel-packages/travel-packages-gallery2-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .travel-packages.image-gallery .image.thirdy {
+        background: url(../img/travel-packages/travel-packages-gallery3-tablet.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    /* PACOTES DE VIAGENS */
+    .payments .content-container .travel-packages.image-gallery .image.first {
+        background: url(../img/travel-packages/travel-packages-gallery1-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .travel-packages.image-gallery .image.second {
+        background: url(../img/travel-packages/travel-packages-gallery2-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .travel-packages.image-gallery .image.thirdy {
+        background: url(../img/travel-packages/travel-packages-gallery3-desktop.png) no-repeat;
         background-size: cover;
     }
 }
