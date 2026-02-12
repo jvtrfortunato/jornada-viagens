@@ -53,6 +53,17 @@
     margin-bottom: 0;
 }
 
+/* BLOG - OUTROS POSTS */
+.destinations .item.hiroshima .img-item {
+    background: url(../img/blog/blog-hiroshima-mobile.png);
+    background-size: cover;
+}
+
+.destinations .item.kyoto .img-item {
+    background: url(../img/blog/blog-kyoto-mobile.png);
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .destinations {
         width: 648px;
@@ -90,6 +101,19 @@
 
     .destinations .item.arrival .img-item {
         width: 312px;
+    }
+
+    /* BLOG - OUTROS POSTS */
+    .destinations .item.hiroshima .img-item {
+        background: url(../img/blog/blog-hiroshima-tablet.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .destinations .item.kyoto .img-item {
+        background: url(../img/blog/blog-kyoto-tablet.png);
+        background-size: cover;
+        background-position: right;
     }
 }
 
@@ -144,4 +168,7 @@
         background: url(../img/blog/blog-tokyo-details-arrival-desktop.png);
         background-size: cover;
     }
+
+    /* BLOG - OUTROS POSTS */
+    
 }
