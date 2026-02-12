@@ -97,6 +97,10 @@ section.bottom-hero {
   text-align: center;
 }
 
+.mobile-break {
+  display: inline;
+}
+
 @media screen and (min-width:768px) {
   section {
     width: 648px;
@@ -109,6 +113,10 @@ section.bottom-hero {
 
   .section-title h2 {
     font-size: 32px;
+  }
+
+  .mobile-break {
+    display: none;
   }
 }
 
