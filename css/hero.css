@@ -74,6 +74,15 @@
     background-position: center;
 }
 
+/* CONTATO */
+/* BLOG */
+.contato.travel-packages .hero-img {
+    height: 460px;
+    background: url(../img/contato/contato-hero-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (min-width: 768px) {
     .hero .hero-img {
         height: 620px;
@@ -121,6 +130,13 @@
         background-size: cover;
         height: 620px;
     }
+
+    /* CONTATO */
+    .contato.travel-packages .hero-img {
+        background: url(../img/contato/contato-hero-tablet.png) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -165,6 +181,13 @@
     .blog.travel-packages .hero-img {
         background: url(../img/blog/blog-hero-desktop.png) no-repeat;
         background-size: cover;
+    }
+
+    /* CONTATO */
+    .contato.travel-packages .hero-img {
+        background: url(../img/contato/contato-hero-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
